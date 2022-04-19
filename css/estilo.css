@@ -1,0 +1,405 @@
+        
+
+
+header{
+
+    background-color: black;
+    text-align: center; 
+    
+}
+h1{
+    
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+    text-align: center;
+    transition: all 2s;
+    
+}
+h1:hover{
+
+    color: gold;   
+    transform: scale(1.1,1.2);
+    
+
+}
+.seccion1{
+    transition: all 2s;
+}
+
+.seccion1:hover{
+    background-color: black;
+    color: gold;
+}
+
+body{
+    background:black;
+    
+}
+
+.footer{
+    margin-top: 30px;
+    height: 50px;
+    background-color: rgb(46, 44, 44);
+    text-align: center;
+    
+}
+
+.bi-facebook{
+    color: red;
+    
+}
+.bi-facebook:hover{
+    color: gold;
+    
+}
+
+.bi-instagram{
+    color: red;
+}
+.bi-instagram:hover{
+    color: gold;
+}
+.bi-twitter{
+    color: red;
+}
+.bi-twitter:hover{
+    color: gold;
+}
+
+nav{
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    background-color:rgb(46, 44, 44);
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav li a{
+    color: red;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    
+}
+
+ul ul{
+    position: absolute;
+    display: none;
+    padding: 1rem;
+}
+ul ul li{
+    display: block;
+    
+}
+ul li:hover ul{
+    display: block;
+    
+}
+nav li a{
+    color:transparent;
+    text-decoration: none;
+    
+}
+nav li a:hover{
+    background-color:transparent;    
+    color: gold;
+
+}
+
+ 
+.discografia{
+    
+    background: linear-gradient(black,black,red,silver,black);
+    
+
+}
+
+h2{
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(255, 0, 13);
+    font-size:large;
+    font-weight: bold;
+
+}
+
+
+{ 
+    background-image:url(../assets/imagenes/pared.png);
+
+}
+.redes{
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: gold;
+    color: black;
+}
+
+.btn-primary:hover{
+
+    background-color: red;
+}   
+
+
+
+
+/** GRID LA BANDA **/
+
+.galeria{
+    max-width: 95%;
+    height: 70vw;
+    margin:20px auto;
+    gap: .5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+   "ab" "ab" 
+   "cd" "cd"
+   "ef" "ef";
+
+}
+.ab{
+
+    grid-area: a;
+}
+
+.cd{
+
+    grid-area: c;
+}
+
+.ef{
+    grid-area: e;
+}
+
+
+
+.galeria{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+.galeria img{
+    width: 600px;
+    height: 300px;
+    opacity: .3;
+    border: 1rem double silver;
+
+}
+.galeria img:hover{
+    opacity: 1;
+    border: solid 3px gold  ;
+
+}
+
+.form{
+    background-color: blue;
+    text-align: center;
+}
+.store nav ul{
+    text-align: center;
+    background-color: black;
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+    .galeria{
+
+    width: 500px;    
+    height: 500px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (7, 1fr);
+    grid-template-areas: 
+    "ab" "ab" 
+   "cd" "cd"
+   "ef" "ef";
+
+ 
+    }
+    .galeria img{
+
+        width: 500px;
+        height: 500px;
+    }
+
+
+
+
+.galeria img{
+
+    border: none;
+}
+.galeria img:hover{
+
+    border: none;
+    
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
